@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Task To-Do</string>
+    <string name="info">Info</string>
+    <string name="logout">Logout</string>
+    <string name="my_lists">My Lists</string>
+    <string name="home">Home</string>
+</resources>

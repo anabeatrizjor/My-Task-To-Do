@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="100dp"/>
+
+    <Button
+        android:id="@+id/loginWelcome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Login"
+        android:fontFamily="@font/poppins_semibold"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="200dp"/>
+
+    <Button
+        android:id="@+id/cadastroWelcome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Cadastro"
+        android:fontFamily="@font/poppins_semibold"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="250dp"/>
+
+</RelativeLayout>
